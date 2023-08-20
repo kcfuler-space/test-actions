@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Comment on PR # 步骤名称
         run: | # 运行以下命令
-          PR_COMMENT="请检查 @Reviewer" # 定义要发表的评论内容
+          PR_COMMENT="请检查 @kcfuler" # 定义要发表的评论内容
           # 使用curl命令通过GitHub API在PR下发表评论
           curl \
             -X POST \
